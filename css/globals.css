@@ -1,0 +1,93 @@
+/* Estilos para que el footer quede abajo */
+/* En Visual Studio Code, [CTRL] + [CLICK] sobre la url para ir al archivo :)*/
+@import url(footer-hack.css);
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #E1E2E1;
+  min-height: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  padding: 0 15px;
+  background: white;
+  border-bottom: 1px solid black;
+}
+
+.header-h1 {
+  text-transform: capitalize;
+  font-family: 'Playfair Display', serif;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+a {
+  margin: 0 8px;
+  text-decoration: none;
+  color: unset;  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.article-container {
+  display: flex;
+  width: 60%;
+}
+
+.article-img {
+  max-width: 35%;
+  margin-right: 25px;
+  filter: grayscale(100%);
+}
+
+.h2-article {
+  padding: 25px 10px;
+  color: white;
+  background: black;
+}
+
+.article-text p {
+  padding: 0 10px;
+}
+
+.article-credits {
+  padding: 0 5px;
+  background: white;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  padding: 0 15px;
+  background: white;
+  border-top: 1px solid black;
+}
+
+
